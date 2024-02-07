@@ -1,0 +1,17 @@
+.container {
+    transition: background-color 0.5s ease;
+    /* Other styles */
+  }
+  
+  .container.expanded {
+    /* Styles to make the container fill the entire screen */
+    background-color: #40A2E3; /* The color when the cube is expanded */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    /* Transition for the cube expansion */
+  }
+  
